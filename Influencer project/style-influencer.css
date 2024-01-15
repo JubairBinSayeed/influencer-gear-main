@@ -101,7 +101,7 @@ ul li{
 /*header-footer-ending*/
 /*main*/
 #one{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -109,7 +109,7 @@ ul li{
     margin: 150px 790px;
 }
 #two{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -117,7 +117,7 @@ ul li{
     margin: 150px 790px;
 }
 #three{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -125,7 +125,7 @@ ul li{
     margin: 150px 790px;
 }
 #four{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -133,7 +133,7 @@ ul li{
     margin: 150px 790px;
 }
 #five{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -141,7 +141,7 @@ ul li{
     margin: 150px 790px;
 }
 #six{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -149,7 +149,7 @@ ul li{
     margin: 150px 790px;
 }
 #seven{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -157,7 +157,7 @@ ul li{
     margin: 150px 790px;
 }
 #eight{
-    align-items: center;
+    
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
@@ -165,11 +165,23 @@ ul li{
     margin: 150px 790px;
 }
 #nine{
-    align-items: center;
+    padding-left: 50px;
+    left: 50px; ;
     border: 10px solid #FFF;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     margin: 150px 790px;
+}
+.content-title{
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+}
+.popular-section{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 600px;
 }
 /*main-ending*/
